@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "name": "Bojack and Diane on a balcony",
+        "image": "./images/bojack-diane-balcony.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bojack, Diane, and Tod in a car",
+        "image": "./images/bojack-diane-tod-car.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Bojack holding a lightbulb",
+        "image": "./images/bojack-lightbulb.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bojack and Princess Carolyn cooking",
+        "image": "./images/bojack-pc-cooking.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Bojack and Princess Carolyn onset",
+        "image": "./images/bojack-pc-onset.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Bojack sneezing",
+        "image": "./images/bojack-sneezing.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Diane and Mr. Peanutbutter in a car",
+        "image": "./images/diane-mrpb-car.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Diane and Mr. Peanutbutter excited",
+        "image": "./images/diane-mrpb-excited.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Diane writing",
+        "image": "./images/diane-writing.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Princess Carolyn is serene",
+        "image": "./images/pc-serene.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Princess Carolyn working",
+        "image": "./images/pc-working.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Tod at work with clocks",
+        "image": "./images/todd-clocks.jpg"
+    }
+]

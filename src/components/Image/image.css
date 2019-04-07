@@ -1,5 +1,13 @@
 .click-item {
-    width: 200px;
-    height: auto;
-    display: block;
+  width: 200px;
+  height: auto;
+  display: block;
+}
+
+img {
+  border-color: #2d3436 !important;
+}
+
+img:hover {
+  box-shadow: 5px 10px 18px #2d3436;
 }

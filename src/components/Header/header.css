@@ -1,3 +1,28 @@
 header {
-    margin-top: 92px;
+  margin-top: 92px;
+}
+
+#jumboContainer {
+  padding-top: 20px;
+}
+
+.hollywoo-title {
+  font-family: "Bowlby One SC";
+  color: #fdcb6e;
+  text-shadow: -1px 0 #636e72, 0 1px #636e72, 1px 0 #636e72, 0 -1px #636e72;
+}
+
+.jumbotron {
+  background-color: #2d3436;
+  color: white;
+}
+
+.clicks-title {
+  color: #d63031;
+  font-size: 95%;
+  text-shadow: 1.5px 1.5px 3.5px #dfe6e9;
+}
+
+.lead {
+  letter-spacing: 1.5px;
 }

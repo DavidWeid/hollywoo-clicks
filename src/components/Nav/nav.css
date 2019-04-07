@@ -1,4 +1,10 @@
 .nav-text {
-    padding: 20px;
-    font-size: 150%;
+  padding: 20px;
+  font-size: 150%;
+  background-color: #2d3436;
+  border: 1px double white;
+}
+
+.navbar {
+  background-color: #d63031;
 }

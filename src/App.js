@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import Image from "./components/Image";
 import characters from "./characters.json";
+import quotes from "./quotes.json";
 import ScoreBoard from "./components/Score";
 import Modal from "./components/Modal";
 
@@ -42,19 +43,20 @@ class App extends React.Component {
 
     if (this.state.clicked.indexOf(clickedImageId) === -1) {
       console.log(
-        "Image " + clickedImageId + " is not in the state.clicked array"
+        "Image " + clickedImageId + " is not in the 'state.clicked' array"
       );
       this.updateScore();
       this.updateTopScore(this.state.score);
     } else {
       console.log(
-        "Image " + clickedImageId + " is already in the state.clicked array"
+        "Image " + clickedImageId + " is already in the 'state.clicked' array"
       );
       this.setState({ clicked: [], score: 0 });
     }
 
-    if ((this.state.score + 1) === 12) {
-        this.setState({clicked: [], score: 0})
+    if (this.state.score + 1 === 12) {
+      console.log("You Won!");
+      this.setState({ clicked: [], score: 0 });
     }
   };
 
@@ -81,6 +83,10 @@ class App extends React.Component {
       </div>
     ));
 
+    const characterQuote = quotes;
+
+    this.shuffle(characterQuote);
+
     this.shuffle(characterImage);
 
     return (
@@ -90,8 +96,7 @@ class App extends React.Component {
         </Nav>
         <Header />
         <Main>
-
-          <Modal score={this.state.score} />
+          <Modal score={this.state.score} quote={characterQuote[0]} />
 
           <div className="row game-row">
             {characterImage[0]}

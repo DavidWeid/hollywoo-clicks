@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/hollywoo-clicks/precache-manifest.b6c7b796fd92a08dfcd94e0a3cb5eb69.js"
+  "/hollywoo-clicks/precache-manifest.8068409d49aa896cb63980a43d42f84d.js"
 );
 
 workbox.clientsClaim();

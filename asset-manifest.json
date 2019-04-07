@@ -1,13 +1,13 @@
 {
-  "main.css": "/hollywoo-clicks/static/css/main.c88cd308.chunk.css",
-  "main.js": "/hollywoo-clicks/static/js/main.7548cee6.chunk.js",
-  "main.js.map": "/hollywoo-clicks/static/js/main.7548cee6.chunk.js.map",
+  "main.css": "/hollywoo-clicks/static/css/main.b971c3f2.chunk.css",
+  "main.js": "/hollywoo-clicks/static/js/main.c6f5363b.chunk.js",
+  "main.js.map": "/hollywoo-clicks/static/js/main.c6f5363b.chunk.js.map",
   "runtime~main.js": "/hollywoo-clicks/static/js/runtime~main.d8c82d77.js",
   "runtime~main.js.map": "/hollywoo-clicks/static/js/runtime~main.d8c82d77.js.map",
-  "static/js/2.f75e8bbc.chunk.js": "/hollywoo-clicks/static/js/2.f75e8bbc.chunk.js",
-  "static/js/2.f75e8bbc.chunk.js.map": "/hollywoo-clicks/static/js/2.f75e8bbc.chunk.js.map",
+  "static/js/2.fad47298.chunk.js": "/hollywoo-clicks/static/js/2.fad47298.chunk.js",
+  "static/js/2.fad47298.chunk.js.map": "/hollywoo-clicks/static/js/2.fad47298.chunk.js.map",
   "index.html": "/hollywoo-clicks/index.html",
-  "precache-manifest.b6c7b796fd92a08dfcd94e0a3cb5eb69.js": "/hollywoo-clicks/precache-manifest.b6c7b796fd92a08dfcd94e0a3cb5eb69.js",
+  "precache-manifest.8068409d49aa896cb63980a43d42f84d.js": "/hollywoo-clicks/precache-manifest.8068409d49aa896cb63980a43d42f84d.js",
   "service-worker.js": "/hollywoo-clicks/service-worker.js",
-  "static/css/main.c88cd308.chunk.css.map": "/hollywoo-clicks/static/css/main.c88cd308.chunk.css.map"
+  "static/css/main.b971c3f2.chunk.css.map": "/hollywoo-clicks/static/css/main.b971c3f2.chunk.css.map"
 }

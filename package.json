@@ -2,7 +2,7 @@
   "name": "hollywoo-clicks",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://davidweid.github.io/hollywoo-clicks",
+  "homepage": "https://davidweid.github.io/hollywoo-clicks/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.6",

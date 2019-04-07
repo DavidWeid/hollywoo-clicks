@@ -5,6 +5,7 @@ function Nav(props) {
         <nav className="navbar navbar-dark bg-dark">
             <div className="text-light text-center mx-auto">
                 This Is the Navbar
+                {props.children}
             </div>
         </nav>
     );

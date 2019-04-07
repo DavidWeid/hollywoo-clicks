@@ -6,6 +6,7 @@ import Main from "./components/Main";
 import Image from "./components/Image";
 import characters from "./characters.json";
 import ScoreBoard from "./components/Score";
+import Modal from "./components/Modal";
 
 class App extends React.Component {
   constructor(props) {
@@ -29,6 +30,12 @@ class App extends React.Component {
     }));
   };
 
+  updateTopScore = score => {
+    if (score >= this.state.topScore) {
+      this.setState(prevState => ({ topScore: prevState.topScore + 1 }));
+    }
+  };
+
   checkClicked = id => {
     const clickedImageId = id;
     this.addToClicked(clickedImageId);
@@ -38,11 +45,16 @@ class App extends React.Component {
         "Image " + clickedImageId + " is not in the state.clicked array"
       );
       this.updateScore();
+      this.updateTopScore(this.state.score);
     } else {
       console.log(
         "Image " + clickedImageId + " is already in the state.clicked array"
       );
       this.setState({ clicked: [], score: 0 });
+    }
+
+    if ((this.state.score + 1) === 12) {
+        this.setState({clicked: [], score: 0})
     }
   };
 
@@ -74,10 +86,13 @@ class App extends React.Component {
     return (
       <div>
         <Nav>
-            <ScoreBoard score={this.state.score} />
+          <ScoreBoard score={this.state.score} topScore={this.state.topScore} />
         </Nav>
         <Header />
         <Main>
+
+          <Modal score={this.state.score} />
+
           <div className="row game-row">
             {characterImage[0]}
             {characterImage[1]}
